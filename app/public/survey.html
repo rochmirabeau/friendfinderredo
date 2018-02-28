@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Survey Page</title>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+	<h1>Take the Survey</h1>
+	<form action="/api/friends" method="POST">
+		<span>Enter your Name</span>
+		<input type="text" name="name" value="Your name">
+		<br>
+		<span>add a photo</span>
+		<input type="file" name="pic" value="fileupload" id="fileupload">
+		<label for="fileupload"></label>
+		<br>
+		<p>Question 1: I know there are infinite Universes</p>
+		<select name="question1">
+			<option value="1">1 - Strongly Disagree</option>
+			<option value="2">2</option>
+			<option value="3">3 - Neutral</option>
+			<option value="4">4</option>
+			<option value="5">5 - Strongly Agree</option>
+		</select>
+		
+		<p>Question 2: I understand how to create concentrated dark matter</p>
+		<select name="question2">
+			<option value="1">1 - Strongly Disagree</option>
+			<option value="2">2</option>
+			<option value="3">3 - Neutral</option>
+			<option value="4">4</option>
+			<option value="5">5 - Strongly Agree</option>
+		</select>
+		
+		<p>Question 3: I believe advertising serves an important purpose</p>
+		<select name="question3">
+			<option value="1">1 - Strongly Disagree</option>
+			<option value="2">2</option>
+			<option value="3">3 - Neutral</option>
+			<option value="4">4</option>
+			<option value="5">5 - Strongly Agree</option>
+		</select>
+		
+		<p>Question 4: I envy those who are emotionally independent</p>
+		<select name="question4">
+			<option value="1">1 - Strongly Disagree</option>
+			<option value="2">2</option>
+			<option value="3">3 - Neutral</option>
+			<option value="4">4</option>
+			<option value="5">5 - Strongly Agree</option>
+		</select>
+		
+		<p>Question 5: I would take my parents side over my significant other</p>
+		<select name="question5">
+			<option value="1">1 - Strongly Disagree</option>
+			<option value="2">2</option>
+			<option value="3">3 - Neutral</option>
+			<option value="4">4</option>
+			<option value="5">5 - Strongly Agree</option>
+		</select>
+		
+		<p>Question 6: I don't see the point in expressing love due to the infinite nature of the reality and the replacability of individuals within those realities</p>
+		<select name="question6">
+			<option value="1">1 - Strongly Disagree</option>
+			<option value="2">2</option>
+			<option value="3">3 - Neutral</option>
+			<option value="4">4</option>
+			<option value="5">5 - Strongly Agree</option>
+		</select>
+		
+		<p>Question 7: I use pity to win the affection of others</p>
+		<select name="question7">
+			<option value="1">1 - Strongly Disagree</option>
+			<option value="2">2</option>
+			<option value="3">3 - Neutral</option>
+			<option value="4">4</option>
+			<option value="5">5 - Strongly Agree</option>
+		</select>
+		
+		<p>Question 8: The slogans "Hungry For Apples?" and "Got Milk?" bear no resemblance and are unique advertising punchlines.</p>
+		<select name="question8">
+			<option value="1">1 - Strongly Disagree</option>
+			<option value="2">2</option>
+			<option value="3">3 - Neutral</option>
+			<option value="4">4</option>
+			<option value="5">5 - Strongly Agree</option>
+		</select>
+		
+		<p>Question 9: I understand how to properly use the phrase "Squanch"</p>
+		<select name="question9">
+			<option value="1">1 - Strongly Disagree</option>
+			<option value="2">2</option>
+			<option value="3">3 - Neutral</option>
+			<option value="4">4</option>
+			<option value="5">5 - Strongly Agree</option>
+		</select>
+		
+		<p>Question 10: I am familiar with the music genre "Human Music"</p>
+		<select name="question10">
+			<option value="1">1 - Strongly Disagree</option>
+			<option value="2">2</option>
+			<option value="3">3 - Neutral</option>
+			<option value="4">4</option>
+			<option value="5">5 - Strongly Agree</option>
+		</select>
+		<br><br>
+		<input type="submit" id="findMyFriend" value="Submit">
+	</form>
+	
+
+	<script src="/js/friend.js"></script>
+
+</body>

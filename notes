@@ -1,0 +1,64 @@
+things I need to understand:
+
+	api routes
+	displaying html with objects
+	
+
+this app:
+	questions:
+	1.	I know there are infinite Universes
+	2.	I understand how to create concentrated dark matter
+	3.	I believe advertising serves an important purpose
+	4.	I envy those who are emotionally independent
+	5.	I would take my parents side over my significant other
+	6.	I don't see the point in expressing love due to the infinite nature of the reality and the replacability of individuals within those realities
+	7.	I use pity to win the affection of others
+	8.	The slogans "Hungry For Apples?" and "Got Milk?" bear no resemblance and are unique advertising punchlines.
+	9.	I understand how to properly use the phrase "Squanch"
+	10.	I am familiar with the music genre "Human Music"
+
+	ques	[0,1,2,3,4,5,6,7,8,9]
+	Rick 	[5,5,1,1,3,5,1,1,5,1]
+	Beth	[3,1,3,5,5,1,3,2,1,1]
+	Jerry	[1,1,5,3,1,1,5,5,2,5]
+	
+
+todo
+
+//	add photo to person object, link photos from online
+//	install express body-parser and path
+//	set up paths
+		htmlRoutes {
+		'/': GET to display survey
+		// is this *?
+		anythingelse:	GET home.html
+		}
+		apiRoutes {
+		'/api/friends': GET to display all poss. friends,
+		'/api/friends': POST to get survey data and compare friends.
+		}
+	create html to house drop downs for questions
+		input box and dropdowns
+		example select for the menu type
+		on click if every form isn't answered, change formatting to danger
+	set up jquery for on click events
+!!!!!	refactor functions to compare arrays within person object
+
+links
+	background: 'http://orig06.deviantart.net/9776/f/2016/258/7/3/rick_and_morty_background_no_2_by_jurokoo-dahrufl.png'
+	rick: 'https://cdn.costumewall.com/wp-content/uploads/2017/01/rick-sanchez.jpg'
+	beth: 'https://static.comicvine.com/uploads/scale_small/6/66303/4472083-vlcsnap-2015-01-31-18h46m55s179.jpg'
+	jerry: 'http://www.rickandmortyshow.com/wp-content/uploads/2016/06/jerry1.jpg'
+
+
+I think I have a callback issue
+	I did not have a callback issue, I had a logic issue
+
+
+todo
+
+//	make a friends js and export friends
+	
+	make a homepage (intro)
+	
+	JQUERY

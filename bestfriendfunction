@@ -1,0 +1,23 @@
+
+ function bestFriend (you, arrays) {
+	console.log(you)
+ 	console.log(arrays)
+ 	let tempFriend = {
+ 		totalDiff: 99
+ 	} 
+ 	let result  
+ 
+ 	for (var i=0;i<arrays.length;i++){
+ 		
+ 		if(difference(you.scores, arrays[i].scores).totalDiff < tempFriend.totalDiff) {
+ 			tempFriend.totalDiff = difference(you.scores, arrays[i].scores).totalDiff
+ 			result = i
+ 			console.log(tempFriend)
+ 		}
+ 	console.log("result " + result)	
+ 	return arrays[ result ]
+ 	}
+ 
+ 
+ }
+bestFriend(test, arrays, difference())

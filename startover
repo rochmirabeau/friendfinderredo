@@ -1,0 +1,17 @@
+I want to have an object
+	name:	string
+	photo:	url 
+	scores:	array of answers
+
+a function
+	takes 2 objects
+	compares the scores arrays
+	returns the difference between the scores
+	
+
+another function
+	takes an object{you} and an array of objects[rick and morty cast]
+	compares the scores of you and each object in the array
+	returns the object that has the lowest difference in scores (your best friend)
+
+
